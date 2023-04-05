@@ -1,0 +1,98 @@
+*{
+margin:0;
+padding:0;/* *default use kore padding margin sahajje text pashe khali jaiga thakbena*/
+}
+body{
+    background-color: rgb(158, 231, 207);
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    max-width:1000px;
+    background-color:rgb(144, 197, 231) ;
+    margin:0 auto;
+    padding: 20px;
+}
+.profile-img{
+width:100px;
+height: 120px;
+border:3px solid white;
+border-radius: 200%;
+float:left;
+}
+.header-bio{
+   float:left; 
+   padding:30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(4, 6, 3)
+}
+.header-contact{
+    float:right;
+    color:black;
+    padding:10px;
+}
+.header-contact a{
+text-decoration: none;
+color:brown;
+font-weight:bold;
+
+}
+.header-contact a:hover{
+color:rgb(168, 21, 154);
+text-decoration: underline;
+
+
+}
+.clear-div{
+
+   clear:both; 
+  
+}
+hr{
+    border:3px solid black;
+    width:100%;
+    margin:20px auto;
+    border-bottom:none;
+
+}
+/*personal information*/
+.content{
+margin: 30px;
+
+}
+.left-div{
+width: 30%;
+float:left;
+
+}
+.right-div{
+
+    width: 70%;
+    float:left;
+    text-align: justify;
+    
+
+
+}
+.common-hr{
+border:solid black 1px;
+border-bottom:none;
+width:100%;
+margin:20px auto;
+
+}
+/*footer start*/
+.footer{
+ background-color: black;
+ text-align: center;
+ padding:10px;
+ color: rgb(245, 242, 242);
+ 
+}
+.footer a {
+    
+    color: rgb(20, 169, 110);
+    text-decoration: none;
+    margin:10px;
+   }
