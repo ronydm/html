@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Registration form</h2>
+    <form  action="https://formspree.io/f/xdovdaqp"
+    method="POST" >
+    <div>
+    <label for="fullname">Full name:</label><input type="text" name="fullname" ID="fullname" required ><!--required dile must full name likte hobe n likle submit hobe na-->
+</div><br>
+<div>
+<label for="email">Email:</label><input type="email" name="email" ID="email">
+</div><br>
+<div>
+    <label for="password">Password:</label><input type="password" name="password" ID="password">
+</div><br>
+<div>
+    <label for="dob">Date of Birth:</label><input type="date" name="dob" ID="dob">
+    <div><br>
+        <label for="photo">choose your photo:</label><input type="file" name="photo" ID="photo">
+    </div><br>
+</div><br>
+<div>
+    <label for="gender">Gender:</label><input type="radio"  checked name="gender" ID="gender" value="male">Male<!--selected, kaj holo autometic selected kora thakbe.projone change kora jabe,noito checked man tai submit hobe-->
+    <label for="gender"></label><input type="radio"  name="gender" ID="gender" value="female">Female
+</div><br>
+<div>
+    <label for="religion">Religion:</label>
+<input type="checkbox" name="c1" ID="muslim" value="islam">Islam
+<input type="checkbox" name="c1" ID="hindu" value="hindu">Hindu
+</div><br>
+<div>
+    <label for="department">Department:</label> 
+<select name="department"><!--Select sahajje amra dropdown menu make korte pari-->
+
+<option value="cse">CSE</option><!--value kaj holo amra jokon submit korbo tkn value man ta submit hobe-->
+<option value="eee" selected>EEE</option> <!--selected, kaj holo autometic selected kora thakbe.projone change kora jabe,noito selected man tai submit hobe-->
+<option value="me">ME</option>
+
+</select>
+</div>
+<div>
+    <label for="message">message:</label> <br>
+<textarea cols="20" rows="10"></textarea>
+</div>
+<div>
+<input type="submit" value="Register">
+<input type="reset" value="clear" disabled><!--disabled dile batton ta hide hye jabe, kaj krbe na-->
+</div>
+
+
+    </form>
+     
+</body>
+</html>
